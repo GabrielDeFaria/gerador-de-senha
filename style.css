@@ -1,0 +1,47 @@
+body {
+    font-family: "Sans", sans-serif;
+    background-image: url("imagens/cat.jpg");
+    background-size: 40vh;
+    background-repeat: repeat;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+  
+  .container {
+    margin-top: 10%;
+    text-align: center;
+    background: rgba(24, 219, 99, 0.2);
+    border-radius: 60px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+    border: 1px solid rgba(9, 2, 8, 0.09);
+    width: 40%;
+}
+  
+  .input {
+    text-align: center;
+    padding: 5px;
+    border-radius: 100px;
+    border: none;
+  }
+  
+  .titulo {
+    margin-bottom: 50px;
+  }
+  
+  .recomendado {
+    color: rgb(7, 6, 6);
+  }
+  
+  .resultado {
+    margin-top: 50px;
+  }
+  
+  .btn {
+    border-radius: 10px;
+    padding: 5px;
+    border-width: 1px;
+  }
+  
