@@ -1,23 +1,25 @@
 body {
-    font-family: "Sans", sans-serif;
-    background-image: url("imagens/cat.jpg");
+    font-family: "Courier New",sans-serif;
+    background-image: url("imagens/password.jpg");
     background-size: 40vh;
     background-repeat: repeat;
     display: flex;
     align-items:center;
     justify-content: center;
 }
-  
+h1,h2,h3,label{
+  color: white;
+}  
+
   .container {
     margin-top: 10%;
     text-align: center;
-    background: rgba(24, 219, 99, 0.2);
-    border-radius: 60px;
+    background: rgba(54, 50, 50, 0.85);
+    border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5.9px);
-    -webkit-backdrop-filter: blur(5.9px);
-    border: 1px solid rgba(9, 2, 8, 0.09);
-    width: 40%;
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    border: 1px solid rgba(54, 50, 50, 0.42);
 }
   
   .input {
@@ -32,7 +34,7 @@ body {
   }
   
   .recomendado {
-    color: rgb(7, 6, 6);
+    color: rgb(255, 246, 246);
   }
   
   .resultado {
