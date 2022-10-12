@@ -1,33 +1,35 @@
 body {
-    font-family: "Courier New",sans-serif;
-    background-image: url("imagens/password.jpg");
-    background-size: 40vh;
-    background-repeat: repeat;
+    font-family: "Poppins",;
+    background: #eeaeca;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(22,35,50,1) 100%);
     display: flex;
     align-items:center;
     justify-content: center;
 }
 h1,h2,h3,label{
-  color: white;
+  color: rgb(0, 0, 0);
 }  
 
   .container {
+    width: 62.5em;
     margin-top: 10%;
     text-align: center;
-    background: rgba(54, 50, 50, 0.85);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: rgb(156, 120, 136);
+    border-radius: 6px;
+    box-shadow: 0 4px 30px rgba(224, 195, 195, 0.1);
     backdrop-filter: blur(5.4px);
     -webkit-backdrop-filter: blur(5.4px);
-    border: 1px solid rgba(54, 50, 50, 0.42);
+    border: 1px solid rgba(216, 189, 189, 0.42);
 }
-  
+ 
   .input {
     text-align: center;
     padding: 5px;
     border-radius: 100px;
     border: none;
+    background: #eeaeca;
   }
+
   
   .titulo {
     margin-bottom: 50px;
@@ -42,8 +44,9 @@ h1,h2,h3,label{
   }
   
   .btn {
-    border-radius: 10px;
+    border-radius: 100px;
     padding: 5px;
     border-width: 1px;
+    background: #eeaeca;
   }
   
