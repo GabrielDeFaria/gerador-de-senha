@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
 body {
-    font-family: "Poppins",;
+    font-family: 'Poppins', sans-serif;
     background: #eeaeca;
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(22,35,50,1) 100%);
     display: flex;
@@ -11,15 +12,10 @@ h1,h2,h3,label{
 }  
 
   .container {
-    width: 62.5em;
+    
     margin-top: 10%;
     text-align: center;
-    background: rgb(156, 120, 136);
-    border-radius: 6px;
-    box-shadow: 0 4px 30px rgba(224, 195, 195, 0.1);
-    backdrop-filter: blur(5.4px);
-    -webkit-backdrop-filter: blur(5.4px);
-    border: 1px solid rgba(216, 189, 189, 0.42);
+    
 }
  
   .input {
