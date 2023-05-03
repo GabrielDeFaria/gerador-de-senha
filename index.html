@@ -2,25 +2,32 @@
 <html>
 
 <head>
-  <title>GeradorDeSenhas</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Senha</title>
   <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
   <div class="container">
-    <div class="titulo">
-      <h1>Gerador de Senhas</h1>
-      <div class="recomendado">
-        <h3>Recomendo 10 caracteres</h3>
-        <h3>ou acima</h3>
+    <div class="header">
+      <div class="lock">
+        <img src="lock.png" alt="Cadeado" />
+      </div>
+      <div class="title">
+        <h1>Gerador de Senha</h1>
       </div>
     </div>
-    <label class="label">Número de Caracteres</label>
-    <br></br>
-    <input id="input" class="input" type="number" placeholder="Digite aqui..." </input>
-    <br></br>
-    <button id="btn" class="btn" type="submit" onclick="pegarTamanho()">Enviar</button>
-    <h2 id="resultado" class="resultado"></h2>
-    <footer><div class="last">Gabriel 2022- Nenhum direito reservado</div></footer>
+    <div class="input-container">
+      <label for="tamanho">Tamanho: </label>
+      <input type="range" id="tamanho" name="tamanho" min="1" max="100" value="8">
+      <span id="tamanho-atual">8</span>
+    </div>
+    <button id="btn" class="btn" type="submit" onclick="pegarTamanho()">Gerar</button>
+    <div class="output-container">
+      <h2 id="resultado" class="resultado"></h2>
+    </div>
   </div>
   <script type="text/javascript" src="script.js"></script>
 </body>
